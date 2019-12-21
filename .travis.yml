@@ -3,5 +3,6 @@ python:
   - "3.8"
 install:
   - pip install requests
+  - pip install flask
 script:
   - pytest
